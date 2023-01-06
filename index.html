@@ -1,38 +1,67 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>linkit</title>
-    <link rel="stylesheet" href="./index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="./styles/index.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body
+    class="h-screen w-4/15 flex flex-col Pastel bg-gradient-to-tr from-violet-500 to-orange-300"
+  >
     <header>
-        <img src="https://ui-avatars.com/api/?name=Sagnik+Chatterjee" />
-        <h1>
-            @sagnikc395
-        </h1>
-    </header>
-    <section>
-        <ul>
-            <li>
-                <a href="https://twitter.com/sagnikchat3/">
-                    Twitter
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/sagnikc395/">
-                    Github
-                </a>
-            </li>
-            <li>
-                <a href="https://sagnikc395.github.io/blog/">
-                    Blog
-                </a>
-            </li>
+      <div class="flex mx-auto py-4 object-contain h-46 w-36">
+        <div class="border-4 rounded-lg border-gray-700 shadow-2xl">
+          <img class="mx-auto" src="./etc/profilePic.jpeg" alt="screenshot" />
+        </div>
+      </div>
+      <h1 class="text-6xl flex flex-row justify-center p-8 font-semibold">
+        @sagnikc395
+      </h1>
+      <div class="flex flex-col p-6">
+        <ul class="p-4 space-y-6">
+          <li
+            class="p-6 border-4 flex flex-row justify-center border-gray-700 rounded-lg shadow-2xl"
+          >
+            <a href="https://github.com/sagnikc395/" class="hover:underline">
+              <label class="font-bold text-4xl">Github</label>
+            </a>
+          </li>
+          <li
+            class="p-6 border-4 flex flex-row justify-center border-gray-700 rounded-lg shadow-2xl"
+          >
+            <a
+              href="https://www.linkedin.com/in/sagnik-chatterjee-b41769260/"
+              class="hover:underline"
+            >
+              <label class="font-bold text-4xl">Linkedin</label></a
+            >
+          </li>
+          <li
+            class="p-6 border-4 flex flex-row justify-center border-gray-700 rounded-lg shadow-2xl"
+          >
+            <a href="https://twitter.com/sagnikchat3/" class="hover:underline">
+              <label class="font-bold text-4xl">Twitter</label>
+            </a>
+          </li>
+          <li
+            class="p-6 border-4 flex flex-row justify-center border-gray-700 rounded-lg shadow-2xl"
+          >
+            <a
+              href="https://sagnikc395.github.io/blog/"
+              class="hover:underline"
+            >
+              <label class="font-bold text-4xl">Blog</label>
+            </a>
+          </li>
         </ul>
-    </section>
-</body>
-
+      </div>
+    </header>
+    <footer></footer>
+  </body>
 </html>
