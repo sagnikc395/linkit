@@ -1,6 +1,6 @@
 # linkit
 
-A simple build of linktree made from HTML and CSS.
+A simple build of linktree made from HTML and TailwindCSS.
 
 ## Screenshot
 
