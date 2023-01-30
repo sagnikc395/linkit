@@ -5,7 +5,6 @@ A simple build of linktree made from HTML and TailwindCSS.
 ## Tech Used:
  - TailwindCSS
  - HTML 
- - JS and canvas for making the waves animation.
 
 
 ## Screenshot
