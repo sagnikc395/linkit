@@ -1,23 +1,22 @@
 {
   "name": "Sagnik Chatterjee",
   "alt": "@sagnikc395",
-  "avatar":"/profilepic.jpeg",
+  "avatar": "/profilepic.jpeg",
   "links": [
     {
       "title": "Website",
       "url": "https://sagnikc395.com",
-      "image":"https://picsum.photos/seed/picsum/100/100"
-    },
-    {
-      "title": "Github",
-      "url": "https://github.com/sagnikc395/",
-      "image":"https://picsum.photos/seed/picsum/100/100"
+      "image": "https://picsum.photos/seed/picsum/100/100"
     }
   ],
   "socials": [
     {
       "title": "Twitter",
       "url": "https://twitter.com/sagnikchat3"
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/sagnikc395"
     }
   ]
 }
